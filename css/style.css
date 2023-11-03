@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  list-style: none;
+}
+
+.main-home {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 40, 9, 0.6), rgba(4, 40, 9, 0.3)),
+    url(../img/image10.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  background: #0c3e35;
+}
+
+.rose {
+  display: flex;
+}
+.rose img {
+  width: 20px;
+  height: 20px;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.rose h1 {
+  padding-top: 8px;
+  color: white;
+  font-weight: light;
+}
+
+.nav-lists {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-lists ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 8px 12px;
+  margin: 20px;
+  position: relative;
+}
+
+.fa-solid {
+  color: white;
+}
+
+.main-text {
+  width: 90%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-text h1 {
+  font-size: 52px;
+}
+
+.main-text p {
+  margin: 10px 0 40px;
+  font-size: 32px;
+  font-weight: light;
+}
+
+.PH {
+  color: orange;
+}
+
+.btn {
+  background: orange;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #0c3e35;
+}
+
+/* collections */
+
+.collections-set {
+  width: 100%;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.collections-set h2 {
+  font-size: 20px;
+  font-weight: light;
+  margin-left: 20px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vase-1 {
+  flex-basis: 80%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  padding: 10px;
+}
+
+.vase-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.vase-1 p {
+  padding: 0;
+}
+
+.best-1 {
+  flex-basis: 42%;
+  border-radius: 20px;
+  margin-top: 0%;
+  text-align: left;
+  padding: 10px;
+}
+
+.best-seller {
+  width: 100%;
+  padding-top: 30px;
+  margin: auto;
+  background: lightgoldenrodyellow;
+}
+
+.best-seller h2 {
+  margin-left: 20px;
+}
+
+.best-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* featured plant */
+.Feature-plant {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.view img {
+  flex-basis: 20%;
+  height: 10%;
+  border-radius: 10px;
+  vertical-align: middle;
+  border: 5px solid #0c3e35;
+}
+
+.view h4 {
+  background: #0c3e35;
+  width: 10%;
+  padding: 10px;
+  display: block;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Fbtn {
+  background: #0c3e35;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Desk {
+  text-align: right;
+}
+
+.special {
+  width: 100%;
+  height: 50%;
+  background: #0c3e35;
+  padding: 10px;
+}
+
+.special .btn1 {
+  background: orange;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.special p {
+  color: white;
+  font-weight: 200;
+}
+
+.special textarea {
+  caret-color: orange;
+  border-radius: 10px;
+  resize: none;
+}
+
+.gallery {
+  text-align: center;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.gallery p {
+  padding: 10px;
+}
+
+.gallery .mentor {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.gallery .showcase {
+  width: 23%;
+  min-width: 130px;
+  padding: 10px 12px;
+  border: 1px solid #0c3e35;
+  cursor: pointer;
+  position: relative;
+  border-radius: 20px;
+}
+
+.gallery .showcase img {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.gallery .showcase .layer {
+  text-align: start;
+  padding: 10px 0;
+}
+
+.gallery .showcase .layer span {
+  color: orange;
+  font-size: 12px;
+}
+
+.gallery .showcase .layer h3 {
+  font-size: 18px;
+  color: black;
+}
+
+.gallery .showcase .layer {
+  color: orange;
+  font-size: 12px;
+}
+
+.gallery .showcase .layer h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart {
+  width: 40px;
+  height: 30px;
+  line-height: 40px;
+  border-radius: 50px;
+  color: #0c3e35;
+  font-weight: 500;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.star i {
+  color: #0c3e35;
+}
+
+/* footer */
+
+footer {
+  background: #0c3e35;
+}
+
+.main-footer {
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  color: white;
+}
+
+.main-footer h6 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.info {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.info h5 {
+  padding: 5px;
+}
+
+.icons i {
+  transition: all 0.45s ease;
+  font-size: 20px;
+}
+.icons .fa-brands {
+  margin: 0 13px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  transform: scale(1.1);
+}
+
+.footer-rose {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-rose img {
+  width: 20px;
+  height: 20px;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.main-footer p {
+  text-decoration: underline;
+}
